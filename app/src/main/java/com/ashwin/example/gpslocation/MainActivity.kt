@@ -74,5 +74,6 @@ class MainActivity : AppCompatActivity() {
 
         // Get location
         mLocationManager?.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0f, mLocationListener)
+        //mLocationManager?.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0f, mLocationListener)
     }
 }
